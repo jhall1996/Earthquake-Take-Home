@@ -24,7 +24,9 @@ This allowed me to identify a country/territory with the highest number of earth
 
 Step 2: Step 2: Find the top 3 locations with the highest magnitude earthquakes in the last 30 days, sorted by timestamp (descending).
 
-This was a fairly straight forward solution. I opted to use the original 'place' column to allow for more specific locations within the results. 
+This was a fairly straightforward solution. I opted to use the original 'place' column to allow for more specific locations within the results. 
 
-Step 3: Investigating the data to determine which criteria to use in the evaluation of countries which are the highest risk to insure. We will continue to work with the filtered dataframe.
+Step 3: Investigate the data to determine which criteria to use in the evaluation of countries which are the highest risk to insure. We will continue to work with the filtered data frame.
+
+I undertook some exploratory analysis to better understand the data. This included a histogram showing the frequency of the different earthquake magnitudes recorded, and a scatter graph of Earthquake Depth vs Magnitude. The scatter graph in particular showed no correlation between magnitude and depth.
 
